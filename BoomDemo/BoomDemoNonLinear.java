@@ -92,7 +92,7 @@ public class BoomDemoNonLinear extends JFrame implements ActionListener {
         g.setColor ( new Color (255, 0, 0) ) ; 
         g.fillRect (x_coordinate3, y_coordinate3, dotHeight, dotWidth);
         
-        x_coordinate3 = Math.sin(x_coordinate3);
+        x_coordinate3 = 15 * (x_coordinate3);
         y_coordinate3 = y_coordinate3;
         
         g.setColor ( new Color (255, 100, 2) ) ; 
